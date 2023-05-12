@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOF|ASSIGNMENT</title>
+  </head>
+  <body>
+    <script>
+                   // QUESTION-1
+                  //  The problem is to create a program that uses the setTimeout() function to reverse a given string after a delay of 2 seconds. The program should use a variable “input” storing a string as input and then implement a delay of 2 seconds before reversing the string. The reversed string should then be printed as output.
+
+                  let input = 'Hello World'
+                  let reverseStr = (str)=>{
+                      return str.split("").reverse().join("");
+                  }
+                  setTimeout(()=>{
+                      let output = reverseStr(input);
+                      console.log(output);
+                  },2000);
+
+                  // QUESTION - 2
+                  // Random Number Generator with Delay and Progress Indication:
+                  The goal of this program is to generate a random number after a delay of 3 seconds, and store the delay in a variable so can be modified. The program displays a message every second indicating the time remaining until the random number is generated and then outputs the generated number.
+    </script>
+  </body>
+</html>
